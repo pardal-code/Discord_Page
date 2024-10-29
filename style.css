@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url(reset.css);
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 505px;
+    position: relative;
+    overflow: hidden;      
+}
+
+.header_background {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23rem;
+    height: 366px;
+    position: absolute;
+    top: 50%;
+    left: 34vw;
+    transform: translate(-43%, -50%);
+    color: white;
+    padding: 0 24px 0 24px;
+}
+
+#title {
+    font-family: "Luckiest Guy";
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2vh;
+    width: 13rem;
+}
+
+#title_sub {
+    font-family: "Open Sans";
+    font-size: 1rem;
+    width: 23rem;
+}
+
+.button_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 122px;
+}
+
+button {
+    width: 21rem;
+    height: 54px;
+    border-radius: 28px;
+}
+
+#button_nav {
+    background-color: #23272A;
+    color: #f8f8f8;
+}
+
+.section_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 24px;
+    gap: 27px;
+    box-sizing: border-box;
+}
+
+.section_menu_responsive {
+    width: 335px;
+}
+
+.section_menu img {
+    width: 20.7rem;
+    height: 13rem;
+}
+
+.title_main {
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sub_main {
+    font-family: "Open Sans";
+    font-size: 1rem;
+    color: #23272A;
+}
+
+footer {
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+footer img {
+    width: 10.2rem;
+    height: 2.8rem;
+}
+
+@media screen and (min-width: 980px) {
+
+    
+
+    .container_title {
+        transform: translate(-34%, -50%);
+        width: 55rem;
+        align-items: center;
+    }
+
+    #title {
+        width: 25rem;
+        line-height: 3rem;
+        font-size: 56px;
+    }
+
+    #title_sub {
+        width: 50rem;
+    }
+
+    .button_header {
+        flex-direction: row;
+        width: 38rem;
+    }
+
+    button {
+        width: 16rem;
+    }
+
+    .section_menu {
+        width: 971px;
+        flex-direction: row;
+    }
+
+    .section_menu img {
+        width: 38rem;
+        height: 25rem;
+    }
+
+    .section_menu_responsive {
+        display: flex;
+        width: 348px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .item_responsive_fim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1200px;
+    }
+
+    #item_fim {
+        width: 800px;
+        display: flex;
+        align-items: center;
+
+    }
+    
+}
+
+@media screen and (min-width: 1290px) {
+
+    main {
+        transform: translate(12%);
+    }
+    
+}
