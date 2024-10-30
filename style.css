@@ -33,7 +33,7 @@ header {
     position: absolute;
     top: 50%;
     left: 34vw;
-    transform: translate(-43%, -50%);
+    transform: translate(-36%, -50%);
     color: white;
     padding: 0 24px 0 24px;
 }
@@ -113,7 +113,30 @@ footer img {
     height: 2.8rem;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 615px) {
+
+    .container_title{
+        transform: translate(-20%,-50%);
+    }
+
+    main {
+        transform: translate(20%);
+    }
+    
+}
+
+@media screen and (min-width:640px) {
+    .container_title{
+        transform: translate(-15%,-50%);
+    }
+
+    main {
+        transform: translate(27%);
+    }
+    
+}
+
+@media screen and (min-width: 945px) {
 
     
 
@@ -176,6 +199,10 @@ footer img {
 }
 
 @media screen and (min-width: 1290px) {
+
+    .container_title {
+        transform: translate(-25%, -50%);
+    }
 
     main {
         transform: translate(12%);
